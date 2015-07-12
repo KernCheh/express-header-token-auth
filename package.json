@@ -1,0 +1,24 @@
+{
+  "name": "express-header-token-auth",
+  "version": "1.0.0",
+  "description": "Parses token from Authorization Headers",
+  "main": "lib/TokenAuth.js",
+  "scripts": {
+    "test": "./node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KernCheh/express-header-token-auth.git"
+  },
+  "keywords": [
+    "authorization",
+    "token",
+    "express"
+  ],
+  "author": "Sim Kern Cheh",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine": "^2.3.1",
+    "underscore": "^1.8.3"
+  }
+}
