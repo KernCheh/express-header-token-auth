@@ -44,7 +44,7 @@ Accepted Authorization Header formats are:
 ### As action
 
 
-    router.use('/protected/resource', function(req, res, next) {
+    router.get('/protected/resource', function(req, res, next) {
       new TokenAuth(req, res).authenticateOrRequestWithHttpToken(function(err, token, options) {
         if (!err) {
           if (isValidToken(token, options))
